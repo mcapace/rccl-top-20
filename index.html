@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Caribbean - Top 20 Whiskies of 2025 Sponsorship</title>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --gold: #C9A961;
+            --dark-gold: #9D7D3A;
+            --navy: #1B2838;
+            --charcoal: #2C3E50;
+            --slate: #4A5568;
+            --cream: #F8F6F1;
+            --off-white: #FDFCFA;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            line-height: 1.6;
+            color: var(--charcoal);
+            background: var(--navy);
+            overflow-x: hidden;
+            font-size: 15px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: var(--off-white);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, var(--navy) 0%, #0f1419 50%, var(--navy) 100%);
+            color: white;
+            padding: 80px 60px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(201, 169, 97, 0.05) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: rotate 60s linear infinite;
+        }
+        
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .logo-container img {
+            height: 70px;
+            width: auto;
+            filter: brightness(0) invert(1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .logo-container img:hover {
+            transform: scale(1.08) translateY(-5px);
+            filter: brightness(0) invert(1) drop-shadow(0 10px 30px rgba(201, 169, 97, 0.4));
+        }
+        
+        .header h1 {
+            font-family: 'Crimson Pro', serif;
+            font-size: 3.5em;
+            margin-bottom: 15px;
+            font-weight: 600;
+            letter-spacing: -1px;
+            position: relative;
+            z-index: 1;
+            color: var(--off-white);
+        }
+        
+        .header .subtitle {
+            font-size: 0.75em;
+            font-weight: 400;
+            opacity: 0.85;
+            position: relative;
+            z-index: 1;
+            letter-spacing: 4px;
+            text-transform: uppercase;
+            color: var(--gold);
+        }
+        
+        .icon {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            display: block;
+        }
+        
+        .exec-summary {
+            background: linear-gradient(135deg, var(--cream) 0%, var(--off-white) 100%);
+            padding: 80px 60px;
+            position: relative;
+        }
+        
+        .exec-summary::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        }
+        
+        .exec-summary h2 {
+            font-family: 'Crimson Pro', serif;
+            color: var(--navy);
+            font-size: 2.5em;
+            margin-bottom: 50px;
+            text-align: center;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+        }
+        
+        .summary-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+            margin-top: 50px;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .summary-card {
+            background: white;
+            padding: 45px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(27, 40, 56, 0.08);
+            border: 1px solid rgba(201, 169, 97, 0.15);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .summary-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%) scaleX(0);
+            width: 80%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .summary-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 12px 35px rgba(27, 40, 56, 0.15);
+            border-color: var(--gold);
+        }
+        
+        .summary-card:hover::before {
+            transform: translateX(-50%) scaleX(1);
+        }
+        
+        .summary-card h3 {
+            color: var(--navy);
+            font-size: 1.3em;
+            margin-bottom: 18px;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+        }
+        
+        .summary-card p {
+            color: var(--slate);
+            font-size: 0.92em;
+            line-height: 1.8;
+            font-weight: 400;
+        }
+        
+        .investment-highlight {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--charcoal) 100%);
+            color: white;
+            padding: 35px 50px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 1.8em;
+            font-weight: 600;
+            margin: 60px auto;
+            box-shadow: 0 8px 30px rgba(27, 40, 56, 0.25);
+            letter-spacing: -0.5px;
+            max-width: 700px;
+            border: 2px solid var(--gold);
+        }
+        
+        .investment-subtext {
+            font-size: 0.5em;
+            font-weight: 400;
+            opacity: 0.9;
+            margin-top: 10px;
+            letter-spacing: 1px;
+        }
+        
+        .content-section {
+            padding: 80px 60px;
+            border-bottom: 1px solid rgba(201, 169, 97, 0.2);
+        }
+        
+        .content-section:nth-child(even) {
+            background: linear-gradient(135deg, var(--cream) 0%, var(--off-white) 100%);
+        }
+        
+        .section-inner {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .content-section h2 {
+            font-family: 'Crimson Pro', serif;
+            color: var(--navy);
+            font-size: 2.3em;
+            margin-bottom: 40px;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            position: relative;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        
+        .content-section h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        }
+        
+        .content-section h3 {
+            color: var(--navy);
+            font-size: 1.4em;
+            margin: 40px 0 25px 0;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+        }
+        
+        .content-section h4 {
+            color: var(--charcoal);
+            font-size: 1.05em;
+            margin: 30px 0 15px 0;
+            font-weight: 600;
+            letter-spacing: -0.2px;
+        }
+        
+        .content-section p {
+            color: var(--slate);
+            font-size: 0.95em;
+            line-height: 1.8;
+            margin: 15px 0;
+        }
+        
+        .content-section ul {
+            margin: 15px 0 15px 25px;
+            color: var(--slate);
+        }
+        
+        .content-section li {
+            margin: 12px 0;
+            font-size: 0.92em;
+            line-height: 1.7;
+        }
+        
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .benefit-card {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(27, 40, 56, 0.08);
+            border: 1px solid rgba(201, 169, 97, 0.15);
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+        
+        .benefit-card:hover {
+            box-shadow: 0 8px 30px rgba(27, 40, 56, 0.12);
+            transform: translateY(-5px);
+            border-color: var(--gold);
+        }
+        
+        .benefit-card h4 {
+            margin-top: 0;
+            color: var(--navy);
+            font-size: 1.15em;
+            margin-bottom: 20px;
+        }
+        
+        .benefit-card ul {
+            margin-left: 0;
+            color: var(--slate);
+            list-style-position: inside;
+            text-align: left;
+        }
+        
+        .benefit-card li {
+            margin: 10px 0;
+            line-height: 1.7;
+            font-size: 0.9em;
+        }
+        
+        .two-col-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .deliverables-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin: 50px 0;
+            background: white;
+            box-shadow: 0 4px 20px rgba(27, 40, 56, 0.08);
+            overflow: hidden;
+            border-radius: 12px;
+            border: 1px solid rgba(201, 169, 97, 0.15);
+            font-size: 0.92em;
+        }
+        
+        .deliverables-table th {
+            background: linear-gradient(135deg, var(--navy) 0%, var(--charcoal) 100%);
+            color: white;
+            padding: 22px 25px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 0.88em;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        .deliverables-table td {
+            padding: 20px 25px;
+            border-bottom: 1px solid rgba(201, 169, 97, 0.1);
+            color: var(--charcoal);
+        }
+        
+        .deliverables-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .deliverables-table tr:hover {
+            background: var(--cream);
+        }
+        
+        .timeline {
+            display: grid;
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .timeline-phase {
+            background: white;
+            padding: 45px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(27, 40, 56, 0.08);
+            border: 1px solid rgba(201, 169, 97, 0.15);
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        .timeline-phase:hover {
+            box-shadow: 0 8px 30px rgba(27, 40, 56, 0.12);
+        }
+        
+        .timeline-phase::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+            border-radius: 12px 12px 0 0;
+        }
+        
+        .timeline-phase h4 {
+            color: var(--navy);
+            font-size: 1.3em;
+            margin-bottom: 25px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        
+        .timeline-phase ul {
+            margin-left: 25px;
+            color: var(--slate);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .timeline-phase li {
+            margin: 14px 0;
+            font-size: 0.92em;
+            line-height: 1.7;
+        }
+        
+        .conversion-options {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+            margin: 40px 0;
+        }
+        
+        .conversion-option {
+            background: white;
+            padding: 35px;
+            border-radius: 12px;
+            border: 2px solid rgba(201, 169, 97, 0.2);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+            overflow: hidden;
+            text-align: center;
+        }
+        
+        .conversion-option::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(201, 169, 97, 0.05) 0%, transparent 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .conversion-option:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 40px rgba(27, 40, 56, 0.15);
+            border-color: var(--gold);
+        }
+        
+        .conversion-option:hover::before {
+            opacity: 1;
+        }
+        
+        .conversion-option h4 {
+            color: var(--navy);
+            margin-bottom: 18px;
+            font-size: 1.05em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .conversion-option ul {
+            margin-left: 0;
+            color: var(--slate);
+            list-style-position: inside;
+            text-align: left;
+        }
+        
+        .conversion-option li {
+            margin: 10px 0;
+            font-size: 0.88em;
+            line-height: 1.7;
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin: 40px 0;
+        }
+        
+        .metric-category {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(27, 40, 56, 0.08);
+            border: 1px solid rgba(201, 169, 97, 0.15);
+            text-align: center;
+        }
+        
+        .metric-category h4 {
+            color: var(--navy);
+            margin-bottom: 25px;
+            padding-bottom: 18px;
+            border-bottom: 2px solid rgba(201, 169, 97, 0.2);
+            font-size: 1.15em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+        
+        .metric-category ul {
+            margin-left: 0;
+            color: var(--slate);
+            list-style-position: inside;
+            text-align: left;
+        }
+        
+        .metric-category li {
+            margin: 12px 0;
+            line-height: 1.7;
+            font-size: 0.9em;
+        }
+        
+        .exclusivity-note {
+            background: linear-gradient(135deg, #FFF9E6 0%, #FFFBF0 100%);
+            border-left: 4px solid var(--gold);
+            padding: 30px;
+            border-radius: 8px;
+            margin: 40px 0;
+            box-shadow: 0 4px 15px rgba(201, 169, 97, 0.1);
+        }
+        
+        .exclusivity-note h4 {
+            color: var(--navy);
+            font-size: 1.2em;
+            margin-bottom: 15px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .exclusivity-note p {
+            color: var(--charcoal);
+            font-size: 0.95em;
+            line-height: 1.7;
+        }
+        
+        .value-props {
+            background: linear-gradient(135deg, var(--navy) 0%, #0f1419 50%, var(--navy) 100%);
+            color: white;
+            padding: 80px 60px;
+            margin: 0;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .value-props::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(201, 169, 97, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+        
+        .value-props h2 {
+            font-family: 'Crimson Pro', serif;
+            color: white;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .value-props h2::after {
+            background: linear-gradient(90deg, transparent, var(--gold), transparent);
+        }
+        
+        .value-props-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0;
+            margin-top: 60px;
+            position: relative;
+            z-index: 1;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .value-prop-card {
+            background: rgba(255,255,255,0.08);
+            padding: 50px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(201, 169, 97, 0.3);
+            transition: all 0.4s ease;
+        }
+        
+        .value-prop-card:hover {
+            background: rgba(255,255,255,0.12);
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(0,0,0,0.3);
+        }
+        
+        .value-prop-card h3 {
+            color: white;
+            margin-bottom: 30px;
+            font-size: 1.6em;
+            font-weight: 600;
+            letter-spacing: -0.3px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+        }
+        
+        .value-prop-card ul {
+            margin-left: 25px;
+        }
+        
+        .value-prop-card li {
+            margin: 16px 0;
+            color: rgba(255,255,255,0.9);
+            font-size: 0.95em;
+            line-height: 1.8;
+        }
+        
+        .footer {
+            background: var(--navy);
+            color: white;
+            padding: 60px;
+            text-align: center;
+        }
+        
+        .footer p {
+            margin: 12px 0;
+            opacity: 0.9;
+            font-size: 0.95em;
+        }
+        
+        .footer p:first-child {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: var(--gold);
+        }
+        
+        .footer a {
+            color: var(--gold);
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+        
+        .footer a:hover {
+            opacity: 0.8;
+        }
+        
+        @media (max-width: 1024px) {
+            .summary-grid,
+            .benefits-grid,
+            .metrics-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .conversion-options {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            
+            .header {
+                padding: 50px 30px;
+            }
+            
+            .header h1 {
+                font-size: 2.2em;
+            }
+            
+            .header .subtitle {
+                font-size: 0.7em;
+            }
+            
+            .content-section {
+                padding: 50px 30px;
+            }
+            
+            .exec-summary {
+                padding: 50px 30px;
+            }
+            
+            .logo-container {
+                gap: 40px;
+            }
+            
+            .logo-container img {
+                height: 60px;
+            }
+            
+            .summary-grid,
+            .benefits-grid,
+            .conversion-options,
+            .metrics-grid,
+            .value-props-grid,
+            .two-col-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .content-section h2 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-container">
+                <img src="https://i.ibb.co/1f4TFp8j/0ec5a0d7-e6ba-4077-8f1f-b5d42bf4cb2d-mshanken-logo-b-5-removebg-preview.png" alt="M. Shanken Logo">
+            </div>
+            <h1>Top 20 Whiskies of 2025</h1>
+            <p class="subtitle">Category Exclusive Sponsorship Opportunity</p>
+        </div>
+
+        <div class="exec-summary">
+            <h2>Executive Summary</h2>
+            <div class="summary-grid">
+                <div class="summary-card">
+                    <span class="icon">◆</span>
+                    <h3>The Opportunity</h3>
+                    <p>Position Royal Caribbean as a category-exclusive sponsor of the most anticipated annual whisky event, reaching affluent travelers and whisky enthusiasts.</p>
+                </div>
+                <div class="summary-card">
+                    <span class="icon">★</span>
+                    <h3>Core Value</h3>
+                    <p>Premium brand presence across Top 20 Whiskies content with strategic integration, driving high-value consumers to Royal Caribbean experiences.</p>
+                </div>
+                <div class="summary-card">
+                    <span class="icon">◈</span>
+                    <h3>Key Differentiator</h3>
+                    <p><strong>Category Exclusivity</strong> - One of only three sponsors, ensuring no competing cruise lines in this premium content.</p>
+                </div>
+            </div>
+            <div class="investment-highlight">
+                Investment: $25,000
+                <div class="investment-subtext">Category Exclusive • One of Three Premium Sponsors</div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-inner">
+                <h2>Campaign Overview</h2>
+                <div class="exclusivity-note">
+                    <h4><span>◆</span> Category Exclusive Sponsorship</h4>
+                    <p>As one of three carefully selected sponsors, Royal Caribbean will have <strong>category exclusivity</strong> in the travel/cruise industry. No other cruise lines or competing travel brands will be featured, ensuring your message reaches our affluent audience without competitive interference. This limited partnership provides premium positioning alongside two other non-competing luxury brands.</p>
+                </div>
+                <h3>Positioning Statement</h3>
+                <p style="text-align: center;">Royal Caribbean will serve as a <strong>category-exclusive sponsor</strong> for the countdown to and reveal of the #1 Whisky of the Year, connecting premium spirits enthusiasts with world-class cruise experiences.</p>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-inner">
+                <h2>Strategic Benefits</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <span class="icon">▲</span>
+                        <h4>Affluent Audience Access</h4>
+                        <ul>
+                            <li>Reach high-net-worth whisky enthusiasts</li>
+                            <li>Premium demographic with travel spending power</li>
+                            <li>Engaged, educated luxury consumers</li>
+                        </ul>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="icon">◉</span>
+                        <h4>Brand Alignment</h4>
+                        <ul>
+                            <li>Association with curated, premium content</li>
+                            <li>Sophisticated lifestyle positioning</li>
+                            <li>Credibility through editorial context</li>
+                        </ul>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="icon">◆</span>
+                        <h4>Category Protection</h4>
+                        <ul>
+                            <li>No competing cruise lines</li>
+                            <li>Exclusive travel industry presence</li>
+                            <li>Premium sponsorship tier</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-inner">
+                <h2>Campaign Components</h2>
+                
+                <h3>1. Display Advertising</h3>
+                <h4>Banner Presence During Top 20 Campaign</h4>
+                <ul>
+                    <li>Rotating banner placement during Top 20 release period (shared with 2 other sponsors)</li>
+                    <li>Premium visibility on 2025 Top 20 landing page</li>
+                    <li>Standard IAB ad units</li>
+                    <li>All units clickable to Royal Caribbean URL of choice</li>
+                </ul>
+
+                <h3>2. Email Marketing Integration</h3>
+                <h4>A. Countdown Email Banner</h4>
+                <ul>
+                    <li>Banner inclusion in select Top 10 Countdown emails</li>
+                    <li>Reaching subscribers during high-engagement countdown period</li>
+                </ul>
+
+                <h4>B. Dedicated Email Inclusion</h4>
+                <div class="two-col-grid">
+                    <div class="benefit-card">
+                        <h4>Whisky Advocate Email</h4>
+                        <ul>
+                            <li>Sponsor recognition in Top 20 reveal email</li>
+                            <li>Logo and messaging inclusion</li>
+                            <li>Direct link to Royal Caribbean landing page</li>
+                        </ul>
+                    </div>
+                    <div class="benefit-card">
+                        <h4>Cigar Aficionado Email</h4>
+                        <ul>
+                            <li>Sponsor recognition in Top 20 reveal email</li>
+                            <li>Logo and messaging inclusion</li>
+                            <li>Direct link to Royal Caribbean landing page</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>3. Social Media Exposure</h3>
+                <h4>Instagram Stories Recognition</h4>
+                <ul>
+                    <li>Sponsor recognition in Instagram Stories campaign</li>
+                    <li>Featured across Whisky Advocate and Cigar Aficionado accounts</li>
+                    <li>Brand exposure during Top 20 countdown and reveal</li>
+                </ul>
+
+                <h3>4. Landing Page Integration</h3>
+                <ul>
+                    <li>Logo placement on Top 20 landing page</li>
+                    <li>Sponsor recognition section</li>
+                    <li>Clickable link to Royal Caribbean destination</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-inner">
+                <h2>Timeline & Campaign Flow</h2>
+                <div class="timeline">
+                    <div class="timeline-phase">
+                        <h4><span>I</span> Phase 1: Countdown Period</h4>
+                        <ul>
+                            <li>Email banner placements during countdown (select emails)</li>
+                            <li>Display advertising begins (rotating with other sponsors)</li>
+                            <li>Social media recognition</li>
+                            <li>Building anticipation phase</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-phase">
+                        <h4><span>II</span> Phase 2: The Reveal</h4>
+                        <ul>
+                            <li>#1 Whisky announcement</li>
+                            <li>Sponsor recognition in reveal emails (WA + CA)</li>
+                            <li>Complete Top 20 landing page goes live with sponsor logos</li>
+                            <li>Social media reveal content with sponsor acknowledgment</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-phase">
+                        <h4><span>III</span> Phase 3: Post-Reveal Engagement</h4>
+                        <ul>
+                            <li>Continued display advertising presence</li>
+                            <li>Landing page sponsor recognition throughout campaign</li>
+                            <li>Extended reach through evergreen content</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-inner">
+                <h2>Deliverables Summary</h2>
+                <table class="deliverables-table">
+                    <thead>
+                        <tr>
+                            <th>Component</th>
+                            <th>Details</th>
+                            <th>Platform(s)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Display Banner Rotation</td>
+                            <td>Shared Rotation (1 of 3 sponsors)</td>
+                            <td>Web</td>
+                        </tr>
+                        <tr>
+                            <td>Countdown Email Banners</td>
+                            <td>Select Placements</td>
+                            <td>Email</td>
+                        </tr>
+                        <tr>
+                            <td>Reveal Email Recognition</td>
+                            <td>2 Emails (WA + CA)</td>
+                            <td>Email</td>
+                        </tr>
+                        <tr>
+                            <td>Social Media Recognition</td>
+                            <td>Instagram Stories</td>
+                            <td>WA + CA Social</td>
+                        </tr>
+                        <tr>
+                            <td>Landing Page Sponsor Section</td>
+                            <td>Logo + Link</td>
+                            <td>Web</td>
+                        </tr>
+                        <tr>
+                            <td>Category Exclusivity</td>
+                            <td>Cruise/Travel</td>
+                            <td>All Platforms</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="content-section">
+            <div class="section-inner">
+                <h2>Target Audience & Reach</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <span class="icon">◆</span>
+                        <h4>Demographics</h4>
+                        <ul>
+                            <li>High-income professionals</li>
+                            <li>Age 35-65 with disposable income</li>
+                            <li>Luxury lifestyle consumers</li>
+                            <li>Travel enthusiasts</li>
+                        </ul>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="icon">★</span>
+                        <h4>Psychographics</h4>
+                        <ul>
+                            <li>Premium spirits collectors</li>
+                            <li>Experience-driven travelers</li>
+                            <li>Sophisticated taste preferences</li>
+                            <li>Brand-conscious consumers</li>
+                        </ul>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="icon">◈</span>
+                        <h4>Engagement</h4>
+                        <ul>
+                            <li>Highly engaged readership</li>
+                            <li>Multi-platform interactions</li>
+                            <li>Content sharers and influencers</li>
+                            <li>Purchase decision-makers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="value-props">
+            <h2>Why This Partnership Works</h2>
+            <div class="value-props-grid">
+                <div class="value-prop-card">
+                    <h3><span>◆</span> For Royal Caribbean</h3>
+                    <ul>
+                        <li>Access to affluent, luxury-oriented travelers with premium spirits interests</li>
+                        <li>Category exclusivity ensures no competing cruise line messaging</li>
+                        <li>Association with prestigious, curated annual whisky content</li>
+                        <li>Cost-effective entry to premium editorial environment</li>
+                        <li>Multi-platform exposure across web, email, and social channels</li>
+                        <li>Alignment with sophisticated lifestyle and experiential travel</li>
+                        <li>Reach engaged audience during high-attention annual event</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Investment: $25,000</p>
+            <p style="margin-bottom: 30px;">Category Exclusive Sponsorship • One of Three Premium Partners</p>
+            <div style="border-top: 1px solid rgba(201, 169, 97, 0.3); padding-top: 30px; margin-top: 30px;">
+                <p style="font-size: 1.1em; margin-bottom: 15px; font-weight: 600;">For More Information</p>
+                <p style="font-weight: 600;">Jake Cohen</p>
+                <p>Account Executive</p>
+                <p>M. Shanken Communications, Inc.</p>
+                <p style="font-size: 0.9em; opacity: 0.8;">825 Eighth Ave, Worldwide Plaza, 33rd Floor</p>
+                <p style="font-size: 0.9em; opacity: 0.8; margin-bottom: 15px;">New York, New York 10019</p>
+                <p><a href="mailto:jcohen@mshanken.com">jcohen@mshanken.com</a></p>
+                <p><a href="tel:203-561-3977">203.561.3977</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
